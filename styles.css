@@ -18,6 +18,10 @@ body {
     padding: 0;
 }
 
+a {
+    color: yellow;
+}
+
 .title {
     width: 100%;
     height: 10%;
