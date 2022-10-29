@@ -11,40 +11,17 @@ html {
 /* TODO: Add a background that actually looks nice. */
 body {
     font-family: "Monaco", monospace;
-    background-color: rgba(0, 0, 0, 0.8);
-    background-image: linear-gradient(to bottom, gray, rgb(30,30,30));
+    background-image: url("./resources/blanet.png");
     color: white;
     margin: 0;
     padding: 0;
 }
 
-a {
-    color: yellow;
+
+h1 {
+    color: white;
 }
 
-.title {
-    width: 100%;
-    height: 10%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: rgba(0,0,0,0.2);
-}
-
-/* Each individual entry. */
-/* Sadly, I'll have to manually enter each entry because if I wanted to use JSON I'd have to bodge the shit together and I'd rather not use anything more complex for a portfolio site. */
-/* TODO: I want each entry to be the title of the game, made in said game */
-.entry {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1%;
-    width: 90%;
-    height: auto;
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.2);
-    margin: 5% 5% 5% 2.5%;
+h2 {
+    color: blue;
 }
