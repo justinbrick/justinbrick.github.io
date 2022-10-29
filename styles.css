@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    filter: blur(10px); /* Create stupid blur so blanet doesn't get in the way */
+    backdrop-filter: blur(10px); /* Create stupid blur so blanet doesn't get in the way */
 }
 
 
