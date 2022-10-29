@@ -1,5 +1,4 @@
-/* If you've come looking for secrets, then go away. */
-/* If you've come to see how this is made, prepare to be disappointed. */
+/* No one likes Blanet! Blanet is for nerds! Go away Blanet Lovers! */
 html {
     height: 100%;
     width: 100%; 
@@ -8,13 +7,14 @@ html {
     margin: 0;
 }
 
-/* TODO: Add a background that actually looks nice. */
 body {
     font-family: "Monaco", monospace;
     background-image: url("./resources/blanet.png");
     color: white;
     margin: 0;
     padding: 0;
+    text-align: center;
+    filter: blur(10px); /* Create stupid blur so blanet doesn't get in the way */
 }
 
 
