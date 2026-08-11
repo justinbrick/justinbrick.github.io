@@ -1,0 +1,77 @@
+[
+    {
+        "skill": "Web Design",
+        "categories": [
+            "Design",
+            "Frontend"
+        ],
+        "competency": {
+            "ranking": 3
+        },
+        "statements": [
+            "Some basic knowledge on web design. Enough to make a website."
+        ],
+        "credential": {
+            "name": "Portfolio Site",
+            "description": "Look at my portfolio site. Pretty good demonstration, I'd say.",
+            "link": "https://justin.directory"
+        }
+    },
+    {
+        "skill": "Micro-Service Architecture",
+        "categories": [
+            "Engineering",
+            "Backend"
+        ],
+        "competency": {
+            "ranking": 4
+        },
+        "statements": [
+            "One of my highest competencies - typically, I view most services as isolated, and that is a factor in the entire design of applications I make.",
+            "Makes for great security practices, great scalability, great maintainability."
+        ],
+        "credential": {
+            "name": "GitHub",
+            "description": "Feel free to look at my GitHub projects.",
+            "link": "https://github.com/justinbrick"
+        }
+    },
+    {
+        "skill": "Chinese",
+        "categories": [
+            "Communication"
+        ],
+        "competency": {
+            "label": "HSK 3 (HSK 3.0 Standards)"
+        },
+        "statements": [
+            "There was a joke going around for a while that people developing with AI would have to learn Chinese. While it's not exactly 100% true, it is kind of funny.",
+            "I didn't learn Chinese for AI though - I've got basic conversational ability, and share enough terminology to be able to get concepts and ideas across to other Chinese engineers with relatively little headaches."
+        ],
+        "credential": {
+            "name": "Chat with Me",
+            "description": "Reach out to me to chat.",
+            "link": "https://justin.directory"
+        }
+    },
+    {
+        "skill": "Spec-Driven Development",
+        "categories": [
+            "AI",
+            "Communication",
+            "Engineering"
+        ],
+        "competency": {
+            "ranking": 5
+        },
+        "statements": [
+            "Instead of vibe-coding applications, it's much more convenient to provide them a specification. This also holds you, the developer, accountable for what you write.",
+            "I share a high competency in this, mainly because I've taken the time to also write a framework for specification driven development. If you don't believe me, you can take a look."
+        ],
+        "credential": {
+            "name": "SpecMan",
+            "description": "See my personally made framework.",
+            "link": "https://github.com/justinbrick/specman"
+        }
+    }
+]
