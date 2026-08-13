@@ -73,5 +73,26 @@
             "description": "See my personally made framework.",
             "link": "https://github.com/justinbrick/specman"
         }
+    },
+    {
+        "skill": "Data Engineering",
+        "categories": [
+            "Engineering",
+            "Analytics"
+        ],
+        "competency": {
+            "ranking": 4
+        },
+        "statements": [
+            "For most of my professional career, my primary role has been data engineering.",
+            "This included getting scalable and resilient systems to gather data from integrations, but also to make sure that data was normalized, and up to date.",
+            "Among the software I used, the most common touched were Apache Airflow, Postgres, and slingdata.",
+            "And of course, a bunch of other custom made data ingestion tools."
+        ],
+        "credential": {
+            "name": "Career",
+            "description": "Working as a software / data engineer for 3 years.",
+            "link": "https://github.com/justinbrick"
+        }
     }
 ]

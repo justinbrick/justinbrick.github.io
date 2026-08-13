@@ -3,7 +3,10 @@
     import type { Skill } from "$lib/types/skill";
     import skillData from "$lib/information/skills.json";
     const skills = (skillData as Skill[])
-        .sort((skill) => skill.competency.ranking ?? 3)
+        .sort(
+            (sk1, sk2) =>
+                (sk1.competency.ranking ?? 3) - (sk2.competency.ranking ?? 3),
+        )
         .reverse();
     const categories = new Set(skills.flatMap((s) => s.categories));
 
@@ -32,7 +35,7 @@
     placeholder="Enter a category name"
     aria-label="Enter names for categories you're interested in narrowing down to."
 />
-<fieldset role="group" class="container-fluid">
+<fieldset role="group" class="wrap">
     {#each applicableCategories as category}
         <label>
             <input
