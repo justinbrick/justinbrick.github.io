@@ -2,6 +2,7 @@
 	import "$lib/styles.scss";
 	import "@picocss/pico/css/pico.min.css";
 	import favicon from "$lib/assets/favicon.svg";
+	import Profile from "$lib/components/profile.svelte";
 
 	let { children } = $props();
 </script>
@@ -15,6 +16,7 @@
 		<ul><h3>justin.directory</h3></ul>
 		<ul>
 			<li><a href="/">Home</a></li>
+			<li><Profile /></li>
 		</ul>
 	</nav>
 </header>
