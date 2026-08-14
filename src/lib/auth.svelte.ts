@@ -59,18 +59,17 @@ function loadSession() {
 
     const provider = window.sessionStorage.getItem(PROVIDER_LOCATION);
     if (!provider) return;
+    authState.provider = provider;
 
     const settings = PROVIDERS[provider];
     if (!settings) {
         console.warn(`got provider ${provider}, but could not find in the list of known providers!`);
         return;
     }
+    authState.activeClient = new OAuth2Client(settings.client);
 
     const token = window.sessionStorage.getItem(TOKEN_LOCATION);
     if (!token) return;
-
-    authState.provider = provider;
-    authState.activeClient = new OAuth2Client(settings.client);
     authState.token = JSON.parse(token);
 }
 
