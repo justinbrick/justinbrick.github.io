@@ -13,7 +13,7 @@ export default defineConfig({
 				warningFilter: (warning) => {
 					const ignored = ['a11y_no_redundant_roles'];
 					return !ignored.includes(warning.code);
-				}
+				},
 			},
 			adapter: adapter({
 				pages: 'build',

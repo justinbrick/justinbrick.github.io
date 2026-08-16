@@ -3,18 +3,27 @@
     "configurations": [
         {
             "name": "Browser",
-            "type": "editor-browser",
             "request": "launch",
+            "type": "firefox",
             "url": "http://localhost:5173",
             "webRoot": "${workspaceFolder}/src",
-            "preLaunchTask": "dev"
+            "skipFiles": [
+                "<node_internals>/**",
+                "**/node_modules/**"
+            ]
         },
         {
             "name": "Dev",
             "type": "node-terminal",
             "request": "launch",
             "command": "npm run dev",
-            "cwd": "${workspaceFolder}"
-        }
-    ]
+            "cwd": "${workspaceFolder}",
+            "serverReadyAction": {
+                "pattern": "➜\\s+Local:\\s+(https?://\\S+)",
+                "action": "startDebugging",
+                "name": "Browser"
+            }
+        },
+    ],
+    "compounds": []
 }

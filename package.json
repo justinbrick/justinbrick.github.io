@@ -24,7 +24,8 @@
 	},
 	"dependencies": {
 		"@badgateway/oauth2-client": "^3.3.1",
-		"@picocss/pico": "^2.1.1"
+		"@picocss/pico": "^2.1.1",
+		"jwt-decode": "^4.0.0"
 	},
 	"allowScripts": {
 		"@parcel/watcher@2.6.0": true
